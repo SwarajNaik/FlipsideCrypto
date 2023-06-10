@@ -8,7 +8,7 @@ Git Commands
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
 
-___
+
 
 _A list of my commonly used Git commands_
 
