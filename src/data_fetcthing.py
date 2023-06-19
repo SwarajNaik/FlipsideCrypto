@@ -12,15 +12,6 @@ def execute_query(sql):
   query_result_set = flipside.query(sql)
   return query_result_set
 
-# """pip install flipside-sdk"""
-# from flipside import Flipside
-
-# """Initialize Flipside with your API Key / API Url"""
-# flipside = Flipside("e3147454-8107-4d64-b673-b93b9c8e55fc", "https://api-v2.flipsidecrypto.xyz")
-# sql = """SELECT * FROM ethereum.uniswapv3.ez_swaps LIMIT 100"""
-# """Run the query against Flipside's query engine and await the results"""
-# query_result_set = flipside.query(sql)
-# print(query_result_set)
 
 def clean_data(data):
   result = {}
