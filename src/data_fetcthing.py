@@ -39,3 +39,4 @@ if __name__ == "__main__":
   sql = execute_query(pools)
   
   df = clean_data(data=sql)
+
